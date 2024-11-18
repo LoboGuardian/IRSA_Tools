@@ -1,11 +1,14 @@
-# from gtts import gTTS
+from gtts import gTTS
 
 nato_alphabet = {
     '1': 'One', '2': 'Two', '3': 'Three',
     '4': 'Four', '5': 'Five', '6': 'Six',
     '7': 'Seven', '8': 'Eight', '9': 'Nine',
     '0': 'Zero',
-    'A': 'Alfa', 'B': 'Bravo', 'C': 'Charlie',
+    # 'A': 'Alfa', 'B': 'Bravo',
+    'A': ('Alfa', 'AHL-fah'),
+    'B': ('Bravo', 'BRAH-voh'), 
+    'C': 'Charlie',
     'D': 'Delta', 'E': 'Echo', 'F': 'Foxtrot',
     'G': 'Golf', 'H': 'Hotel', 'I': 'India',
     'J': 'Juliet', 'K': 'Kilo', 'L': 'Lima',
@@ -35,20 +38,28 @@ nato_alphabet = {
 
 
 def nato_converter(text):
-    """Converts text to NATO phonetic code."""
+    """Convert text to NATO phonetic code with pronunciation for TTS."""
     words = text.upper().split()
-    nato_words = []
+    nato_words_for_text = []
+    nato_words_for_tts = []
     for word in words:
-        nato_word = []
+        nato_word_text = []
+        nato_word_tts = []
         for letter in word:
-            nato_word.append(nato_alphabet.get(letter, letter))
-        nato_words.append(' '.join(nato_word))
-    return ' '.join(nato_words)
+            nato_letter = nato_alphabet.get(letter, (letter, letter))
+            nato_word_text.append(nato_letter[0])  # Palabra para mostrar
+            nato_word_tts.append(nato_letter[1])  # Pronunciación para TTS
+        nato_words_for_text.append(' '.join(nato_word_text))
+        nato_words_for_tts.append(' '.join(nato_word_tts))
+    return ' '.join(nato_words_for_text), ' '.join(nato_words_for_tts)
 
 
-# Example usage:
-# text = "Hello, World! I'm LR7010"
-text = input("Insert your text ")
-nato_code = nato_converter(text)
-print(nato_code)
-# Output: Hotel Echo Lima Lima O, Whiskey Oscar Romeo Letter Delta
+# Ejemplo de uso:
+text = input("Insert your text: ")
+nato_text, nato_tts = nato_converter(text)
+print("NATO code to display:", nato_text)
+
+# Crear el archivo de audio con la pronunciación
+tts = gTTS(text=nato_tts, lang='en')
+tts.save("nato_code.mp3")
+print("Audio file 'nato_code.mp3' created with pronunciation.")
