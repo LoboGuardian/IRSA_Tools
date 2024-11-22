@@ -5,18 +5,46 @@ nato_alphabet = {
     '4': 'Four', '5': 'Five', '6': 'Six',
     '7': 'Seven', '8': 'Eight', '9': 'Nine',
     '0': 'Zero',
-    # 'A': 'Alfa', 'B': 'Bravo',
-    'A': ('Alfa', 'AHL-fah'),
-    'B': ('Bravo', 'BRAH-voh'), 
-    'C': 'Charlie',
-    'D': 'Delta', 'E': 'Echo', 'F': 'Foxtrot',
-    'G': 'Golf', 'H': 'Hotel', 'I': 'India',
-    'J': 'Juliet', 'K': 'Kilo', 'L': 'Lima',
-    'M': 'Mike', 'N': 'November', 'O': 'Oscar',
-    'P': 'Papa', 'Q': 'Quebec', 'R': 'Romeo',
-    'S': 'Sierra', 'T': 'Tango', 'U': 'Uniform',
-    'V': 'Victor', 'W': 'Whiskey', 'X': 'X-ray',
-    'Y': 'Yankee', 'Z': 'Zulu'
+
+    # Letters
+    'A': ('Alfa', 'AHL fah'),
+    'B': ('Bravo', 'BRAH voh'), 
+    'C': ('Charlie','CHAR lee')
+    'D': ('Charlie', 'DELL tah'),
+    'E': ('Echo','ECK oh')
+    'F': ('','')
+    'G': ('','')
+    'H': ('','')
+    'I': ('','')
+    'J': ('','')
+    'K': ('','')
+    'L': ('','')
+    'M': ('','')
+    'N': ('','')
+    'O': ('','')
+    'P': ('','')
+    'Q': ('','')
+    'R': ('','')
+    'S': ('','')
+    'T': ('','')
+    'U': ('','')
+    'V': ('','')
+    'W': ('','')
+    'X': ('','')
+    'Y': ('','')
+    'Z': ('','')
+    '': ('','')
+    '': ('','')
+
+    # 'A': 'Alfa', 'B': 'Bravo', 'C': 'Charlie',
+    # 'D': 'Delta', 'E': 'Echo', 'F': 'Foxtrot'
+    # 'G': 'Golf', 'H': 'Hotel', 'I': 'India',
+    # 'J': 'Juliet', 'K': 'Kilo', 'L': 'Lima',
+    # 'M': 'Mike', 'N': 'November', 'O': 'Oscar',
+    # 'P': 'Papa', 'Q': 'Quebec', 'R': 'Romeo',
+    # 'S': 'Sierra', 'T': 'Tango', 'U': 'Uniform',
+    # 'V': 'Victor', 'W': 'Whiskey', 'X': 'X-ray',
+    # 'Y': 'Yankee', 'Z': 'Zulu'
 }
 
 # Morse code
