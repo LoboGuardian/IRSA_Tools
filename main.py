@@ -7,44 +7,42 @@ nato_alphabet = {
     '0': 'Zero',
 
     # Letters
-    'A': ('Alfa', 'AHL fah'),
-    'B': ('Bravo', 'BRAH voh'), 
-    'C': ('Charlie','CHAR lee')
-    'D': ('Delta', 'DELL tah'),
-    'E': ('Echo','ECK oh')
-    'F': ('Foxtrot','')
-    'G': ('Golf','')
-    'H': ('Hotel','')
-    'I': ('India','')
-    'J': ('Juliett','')
-    'K': ('Kilo','')
-    'L': ('Lima','')
-    'M': ('Mike','')
-    'N': ('November','')
-    'O': ('Oscar','')
-    'P': ('Papa','')
-    'Q': ('Quebec','')
-    'R': ('Romeo','')
-    'S': ('Sierra','')
-    'T': ('Tango','')
-    'U': ('Uniform','')
-    'V': ('Victor','')
-    'W': ('Whiskey','')
-    'X': ('Xray','')
-    'Y': ('Yankee','')
-    'Z': ('Zulu','')
-    '': ('','')
-    '': ('','')
+    # 'A': ('Alfa', 'AHL fah'),
+    # 'B': ('Bravo', 'BRAH voh'),
+    # 'C': ('Charlie', 'CHAR lee'),
+    # 'D': ('Delta', 'DELL tah'),
+    # 'E': ('Echo', 'ECK oh'),
+    # 'F': ('Foxtrot', 'FOKS trot'),
+    # 'G': ('Golf', 'golf'),
+    # 'H': ('Hotel', 'ho TELL'),
+    # 'I': ('India', 'IN dee ah'),
+    # 'J': ('Juliett', 'JEW lee ETT'),
+    # 'K': ('Kilo', 'KEY loh'),
+    # 'L': ('Lima', 'LEE mah'),
+    # 'M': ('Mike', 'mike'),
+    # 'N': ('November', 'no VEM ber'),
+    # 'O': ('Oscar', 'OSS cah'),
+    # 'P': ('Papa', 'pah PAH'),
+    # 'Q': ('Quebec', 'keh BECK'),
+    # 'R': ('Romeo', 'ROW me oh'),
+    # 'S': ('Sierra', 'see AIR rah'),
+    # 'T': ('Tango', 'TANG go'),
+    # 'U': ('Uniform', 'YOU nee form'),
+    # 'V': ('Victor', 'VIK tah'),
+    # 'W': ('Whiskey', 'WISS key'),
+    # 'X': ('Xray', 'ECK ray'),
+    # 'Y': ('Yankee', 'YANG key'),
+    # 'Z': ('Zulu', 'ZOO loo'),
 
-    # 'A': 'Alfa', 'B': 'Bravo', 'C': 'Charlie',
-    # 'D': 'Delta', 'E': 'Echo', 'F': 'Foxtrot'
-    # 'G': 'Golf', 'H': 'Hotel', 'I': 'India',
-    # 'J': 'Juliet', 'K': 'Kilo', 'L': 'Lima',
-    # 'M': 'Mike', 'N': 'November', 'O': 'Oscar',
-    # 'P': 'Papa', 'Q': 'Quebec', 'R': 'Romeo',
-    # 'S': 'Sierra', 'T': 'Tango', 'U': 'Uniform',
-    # 'V': 'Victor', 'W': 'Whiskey', 'X': 'X-ray',
-    # 'Y': 'Yankee', 'Z': 'Zulu'
+    'A': 'Alfa', 'B': 'Bravo', 'C': 'Charlie',
+    'D': 'Delta', 'E': 'Echo', 'F': 'Foxtrot',
+    'G': 'Golf', 'H': 'Hotel', 'I': 'India',
+    'J': 'Juliet', 'K': 'Kilo', 'L': 'Lima',
+    'M': 'Mike', 'N': 'November', 'O': 'Oscar',
+    'P': 'Papa', 'Q': 'Quebec', 'R': 'Romeo',
+    'S': 'Sierra', 'T': 'Tango', 'U': 'Uniform',
+    'V': 'Victor', 'W': 'Whiskey', 'X': 'X-ray',
+    'Y': 'Yankee', 'Z': 'Zulu'
 }
 
 # Morse code
