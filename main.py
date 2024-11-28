@@ -11,7 +11,7 @@ nato_alphabet = {
     '7': 'Seven',
     '8': 'Eight',
     '9': 'Nine',
-
+    # Numbers
     'A': 'Alfa',
     'B': 'Bravo',
     'C': 'Charlie',
@@ -38,6 +38,7 @@ nato_alphabet = {
     'X': 'X-ray',
     'Y': 'Yankee',
     'Z': 'Zulu'
+    # Letters
 
 }
 
